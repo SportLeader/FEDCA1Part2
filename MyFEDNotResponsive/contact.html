@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <!-- Page Title -->
+    <title>Contact</title>
+    <meta name="keywords" content="Career, Profile, About">
+    <!-- External css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Top navbar -->
+        <nav id="navbar">
+            <!-- Ul List Navbar floating left -->
+            <ul class="nav-left">
+                <!-- Logo -->
+                <li>
+                    <a href="index.html" class="logo">
+                        SP
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="career.html">
+                        Career
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="experience.html">
+                        Experience
+                    </a>
+                </li>
+
+            </ul>
+            <!-- Navbar floating right -->
+            <ul class="nav-right">
+                <li>
+                    <a>
+                        <img src="images/down-right-arrow.png" alt="img" width="35" />
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">
+                        Contact Me
+                    </a>
+                </li>
+                <li>
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <!-- Profile icon -->
+                            <img src="images/Mee.jpeg" alt="img" width="39" />
+                            <!-- Search icon -->
+                            <img src="images/drop-down-arrow.png" alt="img" width="15" class="arrow" />
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="index.html">SportLeader</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--  Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="text-center title-2">
+                <u>
+                    Send Me a Message
+                </u>
+            </h2>
+            <!-- width:50% float left div -->
+            <div class="col-50">
+                <div class="row contact-left">
+                    <h4>
+                        Send us a message is just few minutes away
+                    </h4>
+                    <p>
+                        500 Dover Road
+                        <br />
+                        Singapore 139651
+                    </p>
+                    <p>
+                        <a href="https://www.google.com/maps/place/Singapore+Polytechnic/@1.3097811,103.7753608,17z/data=!3m1!4b1!4m5!3m4!1s0x31da1a602ff17c15:0xa9545dd23993859e!8m2!3d1.3097757!4d103.7775495?hl=en" target="_blank"><img src="images/SP.png" alt="img" width="400"></a>
+                    </p>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-50">
+                <div class="row">
+                    <!-- Form -->
+                    <form class="contact-form" method="post">
+
+                        <label for="name">Enter Name:</label>
+                        <!-- text field -->
+                        <input type="text" class="form-control" id="name" name="name" maxlength="35" required>
+
+                        <label for="phone">Enter Phone:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    
+                        <!-- Select -->
+                        <label for="subject">Select Subject:</label>
+                        <select name="subject" id="subject" class="form-control">
+                            <option value="Inquiry">General Inquiry</option>
+                            <option value="Chat">Chat Me</option>
+                        </select>
+
+                        <!--Input type Date -->
+                        <label for="date">Select Date:</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+
+                       
+
+                        <label for="email">Enter Email:</label>
+                        <input type="email" class="form-control" id="email" name="email"c>
+
+                        <!-- Radio Buttons -->
+                        <label>Your Gender:</label>
+                        <br />
+                        <input type="radio" id="male" name="mygender" value="male" checked>
+                        <label for="male">Male</label> <br />
+                        <input type="radio" id="female" name="mygender" value="female">
+                        <label for="female">Female</label>
+
+                        <br /><br />
+                        <!--Input type Textarea -->
+                        <label for="message">Type Message:</label>
+                        <textarea rows="4" class="form-control2" id="message" name="message" required></textarea>
+
+                        <!--Input type File -->
+                        <label for="myfile">Upload file:</label><br />
+                        <input type="file" id="myfile" name="myfile">
+
+                        <br /><br />
+                        <div class="text-center">
+                            <!-- Special Character &#8594; -->
+                            <input type="submit" class="btn-contact" value="SUBMIT &#8594;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Div-->
+    <footer>
+        <ul>
+            <li><a href="tel:+6598765432" target="_blank"><img src="images/phone.png" alt="img" width="50"></i></a><div class="d-none d-lg-block">&nbsp;&nbsp;+65 9876 5432</div></li>
+            <li><a href="mailto:xaviertjw16@yahoo.com.sg?subject=Enquiries" target="_blank"><img src="images/email.png" alt="img" width="50"></i></a><div class="d-none d-lg-block">&nbsp;&nbsp;&nbsp;Xaviertjw16@yahoo.com.sg</div>
+            </li>
+            <li><a href="https://instagram.com/Not_SL" target="_blank"><img src="images/instagram.png" alt="img" width="50"></i></a><div class="d-none d-lg-block">&nbsp;&nbsp;@Not_SL</div></li>
+            <li><a href="https://discord.com/channels/@me" target="_blank"><img src="images/discord.png" alt="img" width="55"></a><div class="d-none d-lg-block">&nbsp;&nbsp;$portLeader #2711</div>
+            </li>
+            <li><a href="https://github.com/sportleader" target="_blank"><img src="images/github.png" alt="img" width="50"></i></a><div class="d-none d-lg-block">&nbsp;&nbsp;SportLeader</div>
+            </li>
+        </ul>
+        <p>&copy;SportLeader 2022 | Xavier Tan</p>
+    </footer>
+
+</body>
+</html>
